@@ -62,8 +62,8 @@ function bubbleSort() {
       if (height1 > height2) {
         let largerHeight = height1;
         // switch heights
-        $(`.item-${j}`).css('height', largerHeight);
         $(`.item-${j-1}`).css('height', height2);
+        $(`.item-${j}`).css('height', largerHeight);
       }
       // end innermost for loop
     }
