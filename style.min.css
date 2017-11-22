@@ -1,0 +1,1 @@
+html,body{overflow-x:hidden;height:100%}.item-container{padding-top:50px}.item-container .item{width:50px;margin-left:50px;display:inline-block;background:blue}.error,#sort-btn{display:none;background:salmon}button,input{padding:10px 20px}button:focus,input:focus{outline:none}#number-btn{background:lightblue}#sort-btn{background:lightgreen}.highlight{background:green !important}
